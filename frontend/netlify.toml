@@ -10,13 +10,13 @@
 # Proxy para el backend
 [[redirects]]
   from = "/api/*"
-  to = "https://backend-94ik.onrender.com/api/:splat"
+  to = "https://proyectoagil-main.onrender.com/api/:splat"
   status = 200
   force = true
 
 # Proxy para archivos subidos (imágenes de productos)
 [[redirects]]
   from = "/uploads/*"
-  to = "https://backend-94ik.onrender.com/uploads/:splat"
+  to = "https://proyectoagil-main.onrender.com/uploads/:splat"
   status = 200
   force = true
